@@ -9,8 +9,8 @@ import ParallaxPage from './pages/ParallaxPage';
 
 const router = createBrowserRouter([
   {
-    basename: "/main",
-    path: "/secrets",
+    basename: "/secrets/",
+    path: "/secrets/",
     element: <App />,
     children: [
       {
