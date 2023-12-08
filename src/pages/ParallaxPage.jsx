@@ -10,7 +10,6 @@ const ParallaxPage = () => {
   return (
     <div>
       <div className={styles.background} />
-
       <Parallax pages={5}>
         <HeaderComponent />
         <ParallaxLayer
