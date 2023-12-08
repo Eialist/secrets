@@ -1,0 +1,76 @@
+
+
+.background {
+    background: linear-gradient(#7d588d, #888fdb);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  .scrollText {
+    font-size: 3rem;
+  }
+  
+  .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.25rem;
+    height: 10rem;
+    width: 30%;
+    text-align: center;
+    border-radius: 10px;
+  }
+  
+  .parallax {
+    margin-right: 15%;
+  }
+  
+  .sticky {
+    margin-left: 15%;
+    background-color: #ff6d6d;
+  }
+  
+  .blue {
+    background-color: #5b65ad;
+    color: white;
+  }
+  
+  .purple {
+    /* background-color: #755b8d; */
+    color: white; 
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 3em;
+  }
+
+  .leftSlide {
+    animation: slide-in 3000ms;
+  }
+  
+  @keyframes slide-in {
+    from {
+        transform: translateX(-100%)
+    }
+    to {
+        transform: translateX(0%);
+    }
+  }
+  @media (max-width: 750px) {
+    .card {
+      width: 40%;
+    }
+  
+    .parallax {
+      margin-right: 1.5rem;
+    }
+  
+    .sticky {
+      margin-left: 1.5rem;
+    }
+  }
+  
