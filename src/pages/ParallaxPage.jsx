@@ -77,7 +77,7 @@ const ParallaxPage = () => {
           <div
             className={`${styles.card} ${styles.parallax}`}
             style={{
-              backgroundImage: `url(${aibg})`,
+              backgroundImage: `url(${aibg})`, 
               backgroundSize: "100%",
               width: "800px",
               height: "550px",
