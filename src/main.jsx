@@ -2,23 +2,22 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import './index.css'
-import { RouterProvider, createHashRouter } from 'react-router-dom';
+import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import JaPage from './pages/JaPage';
 import ParallaxPage from './pages/ParallaxPage';
 
 
-const router = createHashRouter([
+const router = createBrowserRouter([
   {
-    basename: "/secrets/",
-    path: "/secrets/",
+    path: "/",
     element: <App />,
     children: [
       {
-        path: "/secrets/ja", 
+        path: "/ja", 
         element: <JaPage />
       },
       {
-        path: "/secrets/parallax",
+        path: "/parallax",
         element: <ParallaxPage />
       }
     ]
