@@ -1,12 +1,12 @@
 
 import "./App.css";
-import { Outlet } from "react-router-dom";
+// import { Outlet } from "react-router-dom";
 import ParallaxPage from "./pages/ParallaxPage";
 
 function App() {
   return (
     <>
-    <Outlet />
+    {/* <Outlet /> */}
     <ParallaxPage />
     </>
   );
